@@ -1,0 +1,19 @@
+mpesa-flask-app/
+│
+├── app/
+│   ├── __init__.py
+│   ├── routes.py
+│   └── mpesa.py
+│
+├── static/
+│   └── js/
+│       └── main.js
+│
+├── templates/
+│   └── index.html
+│
+├── .env
+├── .env.example
+├── .gitignore
+├── app.py
+├── requirements.txt
