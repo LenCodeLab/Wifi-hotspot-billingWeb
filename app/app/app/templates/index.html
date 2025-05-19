@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flask M-Pesa Pay</title>
+</head>
+<body>
+  <h2>Pay with M-Pesa</h2>
+  <input type="text" id="phone" placeholder="Phone (2547...)" />
+  <input type="number" id="amount" placeholder="Amount" />
+  <button id="pay-button">Pay Now</button>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
